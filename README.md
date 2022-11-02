@@ -25,5 +25,17 @@ LIBLOOM is composed of two steps, i.e. profiling and detection. To detect TPLs f
  		-o result_dir         	 specify result folder.
  		-v                    	 show debug infomation.
 
+## Test Case
+You can test LIBLOOM by detecting given demo app(artifacts/demo/apps).
+
+First, generating profiles for demo app and libraries.
+
+	java -jar LIBLOOM.jar profile -d demo/apps -o profile/apps
+	
+	java -jar LIBLOOM.jar profile -d demo/libs -o profile/libs
+Then, detecting TPLs from demo app.
+
+	java -jar LIBLOOM.jar detect -ad profile/apps -ld profile/libs -o result
+The detection result (.json) can be found in *result* directory.
 ## For More
 For more details about LIBLOOM, you can find in our paper.
