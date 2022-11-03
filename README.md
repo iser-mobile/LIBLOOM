@@ -12,7 +12,7 @@ LIBLOOM is composed of two steps, i.e. profiling and detection. To detect TPLs f
 		-h                show help message.
 		-d app_lib_dir    specify app(.apk) or lib(.aar/.jar) folder.
 		-o profile_dir    specify profile folder.
-		-v                show debug infomation.
+		-v                show debug information.
 
 ### TPLs Detection
 	java -jar LIBLOOM.jar detect [-h] -ad apps_profile_dir -ld libs_profile_dir
@@ -23,7 +23,7 @@ LIBLOOM is composed of two steps, i.e. profiling and detection. To detect TPLs f
  		-ad apps_profile_dir  	 specify app profile folder.
  		-ld libs_profile_dir  	 specify lib profile folder.
  		-o result_dir         	 specify result folder.
- 		-v                    	 show debug infomation.
+ 		-v                    	 show debug information.
 
 ## Test Case
 You can test LIBLOOM by detecting given demo app(artifacts/demo/apps).
