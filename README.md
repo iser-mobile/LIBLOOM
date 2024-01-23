@@ -25,8 +25,23 @@ LIBLOOM is composed of two steps, i.e. profiling and detection. To detect TPLs f
  		-o result_dir         	 specify result folder.
  		-v                    	 show debug information.
 
+**Note** 
+1. To identify the library version accurately, the library naming format must be `libname-version`, i.e.,*gson-2.8.6.jar*. 
+Other formats like *gson-v2.8.6.jar*, *gson.2.8.6.jar* would lead to inaccurate result.
+2. If several versions of a library have the highest similarity score, these potential versions will all be listed in the result for auditing.
+
+## Hyper-parameters
+Hyper-parameters are configurable in `artifacts/config/parameters.properties`.
+
+	CLASS_LEVEL_K=3
+	CLASS_LEVEL_M=256
+	PKG_LEVEL_K=3
+	PKG_LEVEL_M=21640
+	PKG_OVERLAP_THRESHOLD=0.8
+	SIMILARITY_THRESHOLD=0.6
+
 ## Test Case
-You can test LIBLOOM by detecting given demo app(artifacts/demo/apps).
+You can test LIBLOOM by detecting given demo app(`artifacts/demo/apps`).
 
 First, generating profiles for demo app and libraries.
 
@@ -36,6 +51,6 @@ First, generating profiles for demo app and libraries.
 Then, detecting TPLs from demo app.
 
 	java -jar LIBLOOM.jar detect -ad profile/apps -ld profile/libs -o result
-The detection result (.json) can be found in *result* directory.
+The detection result (.json) can be found in `result` directory.
 ## For More
 For more details about LIBLOOM, you can find in our paper.
