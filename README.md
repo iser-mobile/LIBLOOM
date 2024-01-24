@@ -26,8 +26,8 @@ LIBLOOM is composed of two steps, i.e. profiling and detection. To detect TPLs f
  		-v                    	 show debug information.
 
 **Note** 
-1. To identify the library version accurately, the library naming format must be `libname-version`, i.e.,*gson-2.8.6.jar*. 
-Other formats like *gson-v2.8.6.jar*, *gson.2.8.6.jar* would lead to inaccurate result.
+1. To identify the library version accurately, the best library naming format should be `libname-version`, i.e.,*gson-2.8.6.jar*. 
+An irregular naming format would lead to inaccurate result.For instance, *com.google.gson-v2.8.6.jar* and *gson.2.8.6.jar* are both reported by detector if one app depends on the library gson.
 2. If several versions of a library have the highest similarity score, these potential versions will all be listed in the result for auditing.
 
 ## Hyper-parameters
