@@ -1,0 +1,21 @@
+{H_r:3.1532155059608855;H_r_pkg:javax/annotation;H_f:2.0349409139562287;H_f_pkg_list:[javax/annotation/concurrent, javax/annotation/meta]}
+javax/annotation&&{61, 2180, 4503, 5678, 7587, 7873, 8730, 10287, 10899, 11324, 11532, 11934, 14394, 15209, 16822, 17177, 17356, 18028, 19385, 20306, 20680, 21072, 21182, 21410}
+javax/annotation/concurrent&&{5678, 7587, 8730, 10899, 11934, 14394, 17177, 18028, 21072}
+javax/annotation/meta&&{61, 1368, 2196, 2946, 2988, 3241, 4346, 5678, 5702, 6219, 6680, 7071, 7587, 7715, 7731, 7831, 8907, 9090, 10899, 11111, 11532, 11934, 12421, 12928, 12977, 13192, 13606, 14394, 14515, 14672, 16970, 17177, 17364, 18516, 18745, 19872, 20306, 20916, 21430}
+javax/annotation&&Ljavax/annotation/MatchesPattern$Checker&&{20, 28, 54, 78, 85, 88, 106, 134, 156, 186, 226}&&2
+javax/annotation&&Ljavax/annotation/Untainted&&{54, 78, 115, 140, 161, 171, 185, 186, 201}&&1
+javax/annotation&&Ljavax/annotation/Nonnegative&&{54, 78, 115, 140, 161, 171, 185, 186, 201}&&1
+javax/annotation&&Ljavax/annotation/Nonnull$Checker&&{20, 28, 54, 78, 85, 88, 106, 134, 156, 186, 226}&&2
+javax/annotation&&Ljavax/annotation/RegEx$Checker&&{20, 28, 54, 78, 85, 88, 106, 134, 156, 186, 226}&&2
+javax/annotation&&Ljavax/annotation/RegEx&&{54, 78, 115, 140, 161, 171, 185, 186, 201}&&1
+javax/annotation&&Ljavax/annotation/Nonnull&&{54, 78, 115, 140, 161, 171, 185, 186, 201}&&1
+javax/annotation&&Ljavax/annotation/PropertyKey&&{54, 78, 115, 140, 161, 171, 185, 186, 201}&&1
+javax/annotation&&Ljavax/annotation/Syntax&&{18, 54, 78, 88, 115, 140, 161, 171, 185, 186, 201, 204}&&2
+javax/annotation&&Ljavax/annotation/Nonnegative$Checker&&{20, 28, 54, 78, 85, 88, 106, 134, 156, 186, 226}&&2
+javax/annotation&&Ljavax/annotation/MatchesPattern&&{18, 31, 54, 78, 88, 115, 145, 171, 186, 191, 201, 204}&&2
+javax/annotation&&Ljavax/annotation/CheckReturnValue&&{54, 78, 115, 140, 161, 171, 185, 186, 201}&&1
+javax/annotation/concurrent&&Ljavax/annotation/concurrent/GuardedBy&&{18, 54, 78, 88, 115, 171, 186, 201, 204}&&1
+javax/annotation/meta&&Ljavax/annotation/meta/TypeQualifierDefault&&{54, 78, 115, 116, 171, 172, 186, 201, 204}&&1
+javax/annotation/meta&&Ljavax/annotation/meta/TypeQualifierValidator&&{20, 54, 78, 85, 106, 186}&&1
+javax/annotation/meta&&Ljavax/annotation/meta/TypeQualifier&&{53, 54, 78, 87, 115, 121, 171, 186, 201}&&1
+javax/annotation/meta&&Ljavax/annotation/meta/When&&{9, 48, 51, 59, 72, 74, 97, 99, 131, 140, 163, 168, 170, 172, 174, 175, 176, 192, 210, 218, 222, 223, 254}&&7

@@ -29,6 +29,7 @@ LIBLOOM is composed of two steps, i.e. profiling and detection. To detect TPLs f
 1. To identify the library version accurately, the best library naming format should be `libname-version`, i.e.,*gson-2.8.6.jar*. 
 An irregular naming format would lead to inaccurate result.For instance, *com.google.gson-v2.8.6.jar* and *gson.2.8.6.jar* are both reported by detector if one app depends on the library gson.
 2. If several versions of a library have the highest similarity score, these potential versions will all be listed in the result for auditing.
+3. Metrics specificaion. Library-level or version-level TPLs evaluation methods can be selected. In our paper, we use the library-level method, which means a library is considered a true positive (TP) when its name is found in the ground truth (GT), and a false positive (FP) when it is not found. The version-level method is also supported by Libloom.
 
 ## Hyper-parameters
 Hyper-parameters are configurable in `artifacts/config/parameters.properties`.

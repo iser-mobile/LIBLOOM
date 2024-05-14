@@ -1,0 +1,5 @@
+{H_r:3.0382947905356077;H_r_pkg:retrofit2/converter/gson;H_f:0.0;H_f_pkg_list:null}
+retrofit2/converter/gson&&{972, 987, 1063, 1368, 2180, 2185, 2201, 2946, 4346, 4942, 5678, 5702, 6219, 8835, 9090, 11934, 12772, 13192, 13362, 13606, 14394, 14749, 15209, 16500, 16541, 16787, 16822, 17101, 17201, 17356, 17364, 18185, 18595, 18745, 19275, 19385, 19545, 19872, 20089, 20239, 21182, 21430}
+retrofit2/converter/gson&&Lretrofit2/converter/gson/GsonRequestBodyConverter&&{9, 33, 54, 59, 74, 78, 107, 134, 156, 168, 170, 172, 174, 176, 185, 186, 192, 197, 210, 221, 222, 249, 254}&&6
+retrofit2/converter/gson&&Lretrofit2/converter/gson/GsonResponseBodyConverter&&{54, 74, 75, 78, 107, 134, 156, 170, 174, 176, 185, 186, 192, 193, 210, 213, 221}&&4
+retrofit2/converter/gson&&Lretrofit2/converter/gson/GsonConverterFactory&&{31, 33, 67, 68, 75, 92, 123, 140, 145, 151, 161, 174, 185, 192, 198, 210, 236, 242}&&5
